@@ -19,7 +19,7 @@ def self.count
 end
 
 def self.artists
-  @@artists.uniq
+  @@artists.unique 
 end
 
 end
